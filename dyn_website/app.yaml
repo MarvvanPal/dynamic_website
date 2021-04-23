@@ -1,7 +1,7 @@
 #based on https://cloud.google.com/appengine/docs/standard/python3/config/appref 
 # this is helpful too https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/appengine/standard_python3/hello_world 
 
-service: fullstack
+service: dyn_website
 
 runtime: python38 
 
@@ -9,7 +9,7 @@ instance_class: F2
 
 handlers:
 - url: /static
-  static_dir: covid_full_stack_app/static
+  static_dir: dyn_website/static
 
 - url: /.*
   secure: always
