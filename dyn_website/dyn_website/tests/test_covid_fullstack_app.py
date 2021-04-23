@@ -1,7 +1,7 @@
-from covid_full_stack_app.website import app
+from dyn_website.website import app
 
 # add 2nd level of directory hierarchy so tests run sucessfully from root.
-app.config['DATABASE_FILE'] = 'covid_full_stack_app/' + app.config['DATABASE_FILE']  # noqa: E501
+app.config['DATABASE_FILE'] = 'dyn_website/' + app.config['DATABASE_FILE']  # noqa: E501
 
 
 # a functional test
