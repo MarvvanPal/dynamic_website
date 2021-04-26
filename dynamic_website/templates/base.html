@@ -8,17 +8,77 @@
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 
-<body>
+<body class="body">
 
-    <header>
-        <div class="banner">
-            <h1> My Great Project</h1>
+    <header class="header">
+        <header id="nav" class="banner">
+          <nav class="brand w-container"><img src="images/Logo.png" loading="lazy" width="250" alt="" class="image"></nav>
+        </header>
+        <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
+          <div class="nav-links w-container">
+            <nav role="navigation" class="nav-menu w-nav-menu">
+              <a href="#" class="nav-link w-nav-link">Home</a>
+              <a href="#" class="nav-link w-nav-link">About Us</a>
+              <a href="#" class="nav-link w-nav-link">Series</a>
+              <div data-hover="" data-delay="50" class="nav-link dropdown w-dropdown">
+                <div class="dropdown-toggle w-dropdown-toggle">
+                  <div class="icon w-icon-dropdown-toggle"></div>
+                  <div>Activities</div>
+                </div>
+                <nav class="dropdown-list w-dropdown-list">
+                  <a href="#" class="dropdown-link-activities nav-link w-dropdown-link">Solo Activities</a>
+                  <a href="#" class="dropdown-link-activities nav-link w-dropdown-link">Videos</a>
+                  <a href="#" class="dropdown-link-activities nav-link w-dropdown-link">Tutorials</a>
+                </nav>
+              </div>
+              <a href="#" class="nav-link w-nav-link">Contact</a>
+            </nav>
+          </div>
         </div>
-    </header>
+      </header>
     <main>
         {% block content%} {% endblock %}
-    </main>
-    <footer>
-        <h3> <em> By Your Name Here </em></h3>
-    </footer>
+    </main class="content">
+    <footer id="footer" class="footer">
+        <div class="container w-container">
+          <div class="footer-flex-container">
+            <div class="footer-block">
+              <h2 class="footer-heading">Português Acústico</h2>
+              <ul role="list" class="w-list-unstyled">
+                <li>
+                  <a href="#" class="footer-link">Imprint</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Recall policy</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Terms and conditions</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Payment method</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-block">
+              <h2 class="footer-heading">Voucher</h2>
+              <ul role="list" class="w-list-unstyled">
+                <li>
+                  <div class="text-block">Give joy with our great vouchers! We offer vouchers in different values.<br>‍</div>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Go to the vouchers</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-block">
+              <h2 class="footer-heading">Follow us</h2>
+              <div class="social-button-group">
+                <div class="social-button facebook-icon"></div>
+                <div class="social-button instagram-icon"></div>
+              </div>
+            </div>
+          </div>
+          <div>Copyright © 2021 Português Acústico. All rights reserved.</div>
+        </div>
+      </footer>
 </body>

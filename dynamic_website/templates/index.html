@@ -1,8 +1,70 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <p> What an amazing website.</p>  
-
-    <button onclick="warnUser()"> Push Me. I Dare You 2. </button>  
-
+<div class="welcome w-container">
+    <h1 class="welcome-headline">Welcome</h1>
+    <p class="welcome-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+  </div>
+  <div class="presentation w-container">
+    <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
+      <div class="mask w-slider-mask">
+        <div class="slide-1 w-slide">
+          <div class="slider-block">
+            <h1 class="slider-headline">Free demo Text-Files</h1>
+            <p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+            <a href="documents/3_Praia_FINAL.pdf" target="_blank" class="slider-link-pdf"></a>
+            <a href="documents/Pintar-Palavras---Gaivota.pdf" target="_blank" class="slider-link-pdf"></a>
+            <a href="documents/Cabo.pdf" target="_blank" class="slider-link-pdf"><br></a>
+          </div>
+        </div>
+        <div class="slide-2 w-slide">
+          <div class="slider-block">
+            <h1 class="slider-headline">Free demo Audio-Files</h1>
+            <p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+            <a href="documents/3_Praia_FINAL.pdf" target="_blank" class="slider-link-mp3"></a>
+            <a href="documents/Pintar-Palavras---Gaivota.pdf" target="_blank" class="slider-link-mp3"></a>
+            <a href="documents/Cabo.pdf" target="_blank" class="slider-link-mp3"><br></a>
+          </div>
+        </div>
+        <div class="slide-3 w-slide">
+          <div class="slider-block">
+            <h1 class="slider-headline">Checkout more ...</h1>
+            <p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-slider-arrow-left">
+        <div class="w-icon-slider-left"></div>
+      </div>
+      <div class="w-slider-arrow-right">
+        <div class="w-icon-slider-right"></div>
+      </div>
+      <div class="w-slider-nav w-round"></div>
+    </div>
+  </div>
+  <div class="testemonials w-container">
+    <div class="w-layout-grid testemonial-grid">
+      <h1 id="w-node-cf74c405-2277-1a37-4d2a-79400f061499-9369d940" class="testemonials-headline">Testemonials</h1>
+      <div class="testemonial-card">
+        <div class="testemonial-mask avatar-1"></div>
+        <h3 class="testemonial-names">Morton Dixon</h3>
+        <p class="testemonials-texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+      </div>
+      <div class="testemonial-card">
+        <div class="testemonial-mask avatar-2"></div>
+        <h3 class="testemonial-names">Isabel Ross</h3>
+        <p class="testemonials-texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+      </div>
+      <div class="testemonial-card">
+        <div class="testemonial-mask avatar-3"></div>
+        <h3 class="testemonial-names">Aaron Henry</h3>
+        <p class="testemonials-texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+      </div>
+      <div class="testemonial-card">
+        <div class="testemonial-mask avatar-4"></div>
+        <h3 class="testemonial-names">May Stevens</h3>
+        <p class="testemonials-texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+      </div>
+    </div>
+  </div>
 {% endblock %}  

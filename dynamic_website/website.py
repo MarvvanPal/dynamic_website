@@ -9,7 +9,7 @@ app.config.from_pyfile("config.py")
 
 @app.route('/')
 def index():
-    return render_template('index.html', page_title="My great website")
+    return render_template('index.html', page_title="Português Acústico")
 
 
 if __name__ == "__main__":
