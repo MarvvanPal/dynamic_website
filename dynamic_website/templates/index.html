@@ -12,9 +12,9 @@
           <div class="slider-block">
             <h1 class="slider-headline">Free demo Text-Files</h1>
             <p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-            <a href="documents/3_Praia_FINAL.pdf" target="_blank" class="slider-link-pdf"></a>
-            <a href="documents/Pintar-Palavras---Gaivota.pdf" target="_blank" class="slider-link-pdf"></a>
-            <a href="documents/Cabo.pdf" target="_blank" class="slider-link-pdf"><br></a>
+            <a href="{{ url_for('static', filename='documents/3_Praia_FINAL.pdf') }}" target="_blank" class="slider-link-pdf"></a>
+            <a href="{{ url_for('static', filename='documents/Pintar-Palavras---Gaivota.pdf') }}" target="_blank" class="slider-link-pdf"></a>
+            <a href="{{ url_for('static', filename='documents/Cabo.pdf') }}" target="_blank" class="slider-link-pdf"><br></a>
           </div>
         </div>
         <div class="slide-2 w-slide">
