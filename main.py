@@ -1,1 +1,1 @@
-from great_project.website import app  # noqa: F401
+from dynamic_website.website import app  # noqa: F401
