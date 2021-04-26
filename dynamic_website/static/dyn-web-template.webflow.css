@@ -179,7 +179,7 @@
 }
 
 .body {
-  background-image: url('../images/sirisvisual-Qh6yUFl7P5E-unsplash_endless.jpg');
+  background-image: url('images/sirisvisual-Qh6yUFl7P5E-unsplash_endless.jpg');
   background-position: 0px 0px;
   background-size: auto;
 }
@@ -258,7 +258,7 @@
   display: -ms-flexbox;
   display: flex;
   border-radius: 15px;
-  background-image: url('../images/252430-P4G84M-880_without_text.jpg');
+  background-image: url('images/252430-P4G84M-880_without_text.jpg');
   background-position: 0px 0px;
   background-size: contain;
   box-shadow: 1px 1px 3px 0 #000;
@@ -403,13 +403,13 @@
 }
 
 .slide-1 {
-  background-image: url('../images/green-chameleon-s9CC2SKySJM-unsplash.jpg');
+  background-image: url('images/green-chameleon-s9CC2SKySJM-unsplash.jpg');
   background-position: 50% 100%;
   background-size: cover;
 }
 
 .slide-2 {
-  background-image: url('../images/ricardo-resende-swivynstICo-unsplash.jpg');
+  background-image: url('images/ricardo-resende-swivynstICo-unsplash.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -477,31 +477,31 @@
 }
 
 .testemonial-mask.avatar-1 {
-  background-image: url('../images/kevin-jackson-55JRsxcAiWE-unsplash.jpg');
+  background-image: url('images/kevin-jackson-55JRsxcAiWE-unsplash.jpg');
   background-position: 50% 45%;
   background-size: cover;
 }
 
 .testemonial-mask.avatar-2 {
-  background-image: url('../images/mathilde-langevin-j5KAuRrYX7g-unsplash.jpg');
+  background-image: url('images/mathilde-langevin-j5KAuRrYX7g-unsplash.jpg');
   background-position: 50% 45%;
   background-size: cover;
 }
 
 .testemonial-mask.avatar-3 {
-  background-image: url('../images/awab-husameldin-5wn6DeAEcmE-unsplash.jpg');
+  background-image: url('images/awab-husameldin-5wn6DeAEcmE-unsplash.jpg');
   background-position: 50% 0%;
   background-size: cover;
 }
 
 .testemonial-mask.avatar-4 {
-  background-image: url('../images/smith-major-_BX-nucYCE4-unsplash.jpg');
+  background-image: url('images/smith-major-_BX-nucYCE4-unsplash.jpg');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-3 {
-  background-image: url('../images/annie-spratt-4-4WPFLVhAY-unsplash.jpg');
+  background-image: url('images/annie-spratt-4-4WPFLVhAY-unsplash.jpg');
   background-position: 50% 100%;
   background-size: cover;
 }
@@ -536,13 +536,13 @@
 }
 
 .social-button.facebook-icon {
-  background-image: url('../images/facebook.png');
+  background-image: url('images/facebook.png');
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .social-button.instagram-icon {
-  background-image: url('../images/instagram.png');
+  background-image: url('images/instagram.png');
   background-size: cover;
 }
 
@@ -634,7 +634,7 @@
 }
 
 .link {
-  background-image: url('../images/PDF.png');
+  background-image: url('images/PDF.png');
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -645,7 +645,7 @@
   margin-right: auto;
   margin-bottom: 40px;
   margin-left: auto;
-  background-image: url('../images/PDF.png');
+  background-image: url('images/PDF.png');
   background-position: 0% 0%;
   background-size: cover;
 }
@@ -656,7 +656,7 @@
   margin-right: auto;
   margin-bottom: 40px;
   margin-left: auto;
-  background-image: url('../images/MP3.png');
+  background-image: url('images/MP3.png');
   background-position: 0px 0px;
   background-size: cover;
 }

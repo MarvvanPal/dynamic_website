@@ -6,6 +6,9 @@ app = Flask(__name__)
 # configure Flask using environment variables
 app.config.from_pyfile("config.py")
 
+# Enable to using images in the directory /static/images
+app.add_url_rule('/images/<path:filename>', endpoint='images')
+
 
 @app.route('/')
 def index():
