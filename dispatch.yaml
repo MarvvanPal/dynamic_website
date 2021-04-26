@@ -1,5 +1,0 @@
-# adapted from https://cloud.google.com/appengine/docs/standard/python3/how-requests-are-routed#dispatch 
-
-dispatch:
-- url: "*/"
-  service: dyn_website
