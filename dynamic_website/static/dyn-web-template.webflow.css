@@ -536,12 +536,14 @@
 }
 
 .social-button.facebook-icon {
+  display:block;
   background-image: url('images/facebook.png');
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .social-button.instagram-icon {
+  display:block;
   background-image: url('images/instagram.png');
   background-size: cover;
 }
