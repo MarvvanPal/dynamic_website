@@ -1,0 +1,41 @@
+.content-textbox {
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px 0 #000;
+  }
+  
+  .content-headline {
+    text-align: center;
+  }
+  
+  .content-text {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  
+  .content-flexbox {
+    display:flex;
+    flex-wrap: wrap;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 0 #000;
+    padding: 0px 40px;
+  }
+
+  .series-contents {
+    flex-direction: row;
+    flex-shrink: 0;
+    /*border-style: solid;
+    border-width: 0.01em;*/
+    flex:1;
+    width:50%;
+    min-width:400px;
+  }
+
+  .redirect_text {
+    font-size: 0.75em;
+  }
+
+  .social-media-links {
+    display:block;
+    height: 100%;
+    width: 100%;
+  }

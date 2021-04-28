@@ -10,7 +10,7 @@ app.config.from_pyfile("config.py")
 app.add_url_rule('/images/<path:filename>', endpoint='images')
 
 # Enable to using documents in the directory /static/documents
-app.add_url_rule('/images/<path:filename>', endpoint='documents')
+app.add_url_rule('/documents/<path:filename>', endpoint='documents')
 
 
 @app.route('/')
@@ -27,6 +27,9 @@ def about_us():
 def series():
     return render_template('series.html', page_title="Português Acústico - Series")
 
+@app.route('/solo_activities')
+def solo_activities():
+    return render_template('solo_activities.html', page_title="Português Acústico - Solo-Activities")
 
 @app.route('/contact')
 def contact():

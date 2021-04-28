@@ -592,7 +592,7 @@ textarea.w-select {
 .w-hidden-main {
   display: none !important;
 }
-@media screen and (max-width: 991px) {
+/*@media screen and (max-width: 991px) {
   .w-container {
     max-width: 728px;
   }
@@ -643,8 +643,8 @@ textarea.w-select {
     left: auto;
     right: auto;
   }
-}
-@media screen and (max-width: 767px) {
+}*/
+/*@media screen and (max-width: 767px) {
   .w-hidden-main {
     display: inherit !important;
   }
@@ -700,8 +700,8 @@ textarea.w-select {
   .w-col-small-12 {
     width: 100%;
   }
-}
-@media screen and (max-width: 479px) {
+} */
+/*@media screen and (max-width: 479px) {
   .w-container {
     max-width: none;
   }
@@ -756,7 +756,7 @@ textarea.w-select {
   .w-col-tiny-12 {
     width: 100%;
   }
-}
+}*/
 .w-widget {
   position: relative;
 }
@@ -1127,11 +1127,11 @@ textarea.w-select {
 .w-dropdown-link:focus {
   outline: 0;
 }
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
   .w-nav-brand {
     padding-left: 10px;
   }
-}
+}*/
 /**
  * ## Note
  * Safari (on both iOS and OS X) does not handle viewport units (vh, vw) well.
@@ -1416,7 +1416,7 @@ textarea.w-select {
 .w-lightbox-noscroll {
   overflow: hidden;
 }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .w-lightbox-content {
     height: 96vh;
     margin-top: 2vh;
@@ -1426,7 +1426,7 @@ textarea.w-select {
     height: 96vh;
   }
   /* .w-lightbox-content */
-  .w-lightbox-group,
+  /*.w-lightbox-group,
   .w-lightbox-group .w-lightbox-view,
   .w-lightbox-group .w-lightbox-view:before {
     height: 84vh;
@@ -1450,7 +1450,7 @@ textarea.w-select {
   .w-lightbox-control:hover {
     opacity: 1;
   }
-}
+}*/
 .w-lightbox-inactive,
 .w-lightbox-inactive:hover {
   opacity: 0;
@@ -1704,7 +1704,7 @@ textarea.w-select {
 .w--nav-dropdown-list-open {
   position: static;
 }
-@media screen and (max-width: 991px) {
+/*@media screen and (max-width: 991px) {
   .w-nav[data-collapse="medium"] .w-nav-menu {
     display: none;
   }
@@ -1730,7 +1730,7 @@ textarea.w-select {
   .w-nav[data-collapse="tiny"] .w-nav-button {
     display: block;
   }
-}
+}*/
 .w-tabs {
   position: relative;
 }
@@ -1778,11 +1778,11 @@ textarea.w-select {
 .w--tab-active {
   display: block;
 }
-@media screen and (max-width: 479px) {
+/*@media screen and (max-width: 479px) {
   .w-tab-link {
     display: block;
   }
-}
+}*/
 .w-ix-emptyfix:after {
   content: "";
 }

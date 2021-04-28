@@ -536,14 +536,11 @@
 }
 
 .social-button.facebook-icon {
-  display:block;
   background-image: url('images/facebook.png');
-  background-position: 0px 0px;
   background-size: cover;
 }
 
 .social-button.instagram-icon {
-  display:block;
   background-image: url('images/instagram.png');
   background-size: cover;
 }
@@ -571,20 +568,6 @@
 .dropdown-link-activities.nav-link:hover {
   background-color: rgba(165, 231, 210, 0.68);
   font-weight: 700;
-}
-
-.welcome {
-  border-radius: 15px;
-  box-shadow: 1px 1px 3px 0 #000;
-}
-
-.welcome-headline {
-  text-align: center;
-}
-
-.welcome-text {
-  padding-right: 40px;
-  padding-left: 40px;
 }
 
 .div-block-4 {
@@ -663,14 +646,14 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 991px) {
+/*@media screen and (max-width: 991px) {
   .footer {
     padding-right: 20px;
     padding-left: 20px;
   }
-}
+}*/
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
   .banner {
     position: relative;
   }
@@ -687,9 +670,9 @@
     -o-object-fit: contain;
     object-fit: contain;
   }
-}
+}*/
 
-@media screen and (max-width: 479px) {
+/*@media screen and (max-width: 479px) {
   .banner {
     padding: 0px;
   }
@@ -735,7 +718,7 @@
   .footer-heading {
     margin-top: 20px;
   }
-}
+}*/
 
 #w-node-cf74c405-2277-1a37-4d2a-79400f061499-9369d940 {
   -ms-grid-row: 1;
