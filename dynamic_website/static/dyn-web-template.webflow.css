@@ -166,6 +166,7 @@
   margin-bottom: 10px;
   color: #444;
   text-decoration: none;
+  cursor: not-allowed;
 }
 
 .footer-link:hover {
@@ -574,13 +575,7 @@
   background-color: transparent;
 }
 
-.slider-headline {
-  margin-top: auto;
-  margin-bottom: 0px;
-  text-align: center;
-}
-
-.slider-text {
+.presentation-text {
   padding-right: 100px;
   padding-left: 100px;
 }

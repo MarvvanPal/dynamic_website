@@ -1,47 +1,28 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="content-textbox w-container">
-    <h1 class="content-headline">Welcome</h1>
+  <div class="content-textbox w-container">
+    <h1 id="main" class="content-headline">Welcome</h1>
     <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-</div>
-  <div class="presentation w-container">
-    <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
-      <div class="mask w-slider-mask">
-        <div class="slide-1 w-slide">
-          <div class="slider-block">
-            <h1 class="slider-headline">Free demo Text-Files</h1>
-            <p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-            <a href="{{ url_for('static', filename='documents/3_Praia_FINAL.pdf') }}" target="_self" class="slider-link-pdf" title="PDF-Document on slider"></a>
-            <a href="{{ url_for('static', filename='documents/Pintar-Palavras---Gaivota.pdf') }}" target="_self" class="slider-link-pdf" title="PDF-Document on slider"></a>
-            <a href="{{ url_for('static', filename='documents/Cabo.pdf') }}" target="_self" class="slider-link-pdf" title="PDF-Document on slider"></a>
-          </div>
-        </div>
-        <div class="slide-2 w-slide">
-          <div class="slider-block">
-            <h1 class="slider-headline">Free demo Audio-Files</h1>
-            <p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-            <a href="documents/3_Praia_FINAL.pdf" target="_self" class="slider-link-mp3" title="Audio-File on slider"></a>
-            <a href="documents/Pintar-Palavras---Gaivota.pdf" target="_self" class="slider-link-mp3" title="Audio-File on slider"></a>
-            <a href="documents/Cabo.pdf" target="_self" class="slider-link-mp3" title="Audio-File on slider"><br></a>
-          </div>
-        </div>
-        <div class="slide-3 w-slide">
-          <div class="slider-block">
-            <h1 class="slider-headline">Checkout more ...</h1>
-            <p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-          </div>
-        </div>
-      </div>
-      <div class="w-slider-arrow-left">
-        <div class="w-icon-slider-left"></div>
-      </div>
-      <div class="w-slider-arrow-right">
-        <div class="w-icon-slider-right"></div>
-      </div>
-      <div class="w-slider-nav w-round"></div>
-    </div>
   </div>
+  <div class="presentation-textbox w-container">
+      <h1 class="presentation-headline">Free demo Text-Files</h1>
+      <p class="presentation-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+      <div class="presentation-contents"><a href="{{ url_for('static', filename='documents/1_Informativa_Pegadas de dinossauros - FINAL.pdf') }}"><img src="{{ url_for('static', filename='images/PDF.png') }}" loading="lazy" alt="Company Logo on top of the page." class="presentation-image-file image"></a></div>
+      <div class="presentation-contents"><a href="{{ url_for('static', filename='documents/3_Praia_FINAL.pdf') }}"><img src="{{ url_for('static', filename='images/PDF.png') }}" loading="lazy" alt="Company Logo on top of the page." class="presentation-image-file image"></a></div>
+      <div class="presentation-contents"><a href="{{ url_for('static', filename='documents/BR_A criação da noite.pdf') }}"><img src="{{ url_for('static', filename='images/PDF.png') }}" loading="lazy" alt="Company Logo on top of the page." class="presentation-image-file image"></a></div>
+  </div>
+  <div class="presentation-textbox w-container">
+    <h1 class="presentation-headline">Free demo Audio-Files</h1>
+    <p class="presentation-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+    <div class="presentation-contents"><a href="{{ url_for('static', filename='documents/Informativa_Pegadas_only_3.m4a') }}"><img src="{{ url_for('static', filename='images/MP3.png') }}" loading="lazy" alt="Company Logo on top of the page." class="presentation-image-file image"></a></div>
+    <div class="presentation-contents"><a href="{{ url_for('static', filename='documents/Praia_FINAL.mp3') }}"><img src="{{ url_for('static', filename='images/MP3.png') }}" loading="lazy" alt="Company Logo on top of the page." class="presentation-image-file image"></a></div>
+    <div class="presentation-contents"><a href="{{ url_for('static', filename='documents/criacao_only_2.m4a') }}"><img src="{{ url_for('static', filename='images/MP3.png') }}" loading="lazy" alt="Company Logo on top of the page." class="presentation-image-file image"></a></div>
+</div>
+<div class="presentation-textbox w-container">
+  <h1 class="presentation-headline">and more...</h1>
+  <p class="presentation-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+</div>
   <div class="testemonials w-container">
     <div class="w-layout-grid testemonial-grid">
       <h1 id="w-node-cf74c405-2277-1a37-4d2a-79400f061499-9369d940" class="testemonials-headline">Testemonials</h1>

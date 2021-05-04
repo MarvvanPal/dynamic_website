@@ -27,9 +27,15 @@ def about_us():
 def series():
     return render_template('series.html', page_title="Português Acústico - Series")
 
+
 @app.route('/solo_activities')
 def solo_activities():
     return render_template('solo_activities.html', page_title="Português Acústico - Solo-Activities")
+
+
+@app.route('/tutorial')
+def tutorial():
+    return render_template('tutorial.html', page_title="Português Acústico - Tutorial")
 
 
 @app.route('/contact', methods=['GET', 'POST'])
