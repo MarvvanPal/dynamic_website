@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from flask import render_template
 
 app = Flask(__name__)
@@ -31,9 +31,23 @@ def series():
 def solo_activities():
     return render_template('solo_activities.html', page_title="Português Acústico - Solo-Activities")
 
-@app.route('/contact')
+
+@app.route('/contact', methods=['GET', 'POST'])
 def contact():
-    return render_template('contact.html', page_title="Português Acústico - Contact")
+    if request.method == 'POST':
+        name = request.form.get('name')
+        email = request.form.get('email')
+        subject = request.form.get('subject')
+        message = request.form.get('message')
+        tac = request.form.get('tac')
+        if tac == "on":
+            tac = "yes"
+        else:
+            tac = "no"
+        return render_template('contact_form_sent.html', page_title="Português Acústico - Contact", name=name, email=email, subject=subject, message=message, tac=tac)
+
+    # otherwise handle the GET request
+    return render_template('contact_form_receive.html', page_title="Português Acústico - Contact")
 
 
 if __name__ == "__main__":

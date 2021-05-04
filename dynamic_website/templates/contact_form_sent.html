@@ -2,7 +2,18 @@
 
 {% block content %}
 <div class="content-textbox w-container">
+
     <h1 class="content-headline">Contact</h1>
     <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+</div>
+<div class="content-textbox w-container">
+    <p>Your message was successfully sent.</p>
+    <p>Your message:</p>
+    <h3>Name: {{name}}</h3>
+    <h3>E-Mail: {{email}}</h3>
+    <h3>Subject: {{subject}}</h3>
+    <h3>Message: {{message}}</h3>
+    <h3>Terms and conditions accepted: {{tac}}</h3>
+
 </div>
 {% endblock %}  

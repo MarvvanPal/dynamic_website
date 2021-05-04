@@ -2,13 +2,14 @@ body{
   min-width: 360px;
   }
 
-  /*.nav-menu{
-    min-height: 40px;
-  }*/
+  .burger-menu {
+    display: none;
+  }
 
 .content-textbox {
   border-radius: 15px;
   box-shadow: 1px 1px 3px 0 #000;
+  margin-bottom: 30px;
 }
   
 .content-headline {
@@ -54,12 +55,19 @@ body{
   width:25px;
 }
 
-
+.presentation {
+    padding-top: 0px;
+  }
 
 @media screen and (max-width: 768px){
 
   .nav-link {
     display:none;
+  }
+
+  .nav-links {
+    padding-left: 0%;
+    float:left;
   }
 
   .menu-btn {
@@ -71,13 +79,14 @@ body{
     height: 40px;
     cursor: pointer;
     transition: all .5s ease-in-out;
-    border: 3px solid #fff;
+    float:left;
+    /*border: 3px solid rgb(0, 0, 0);*/
   }
 
   .menu-btn__burger{
     width:25px;
     height:3px;
-    background: white;
+    background: rgb(0, 0, 0);
     border-radius: 2px;
     /*box-shadow: 0 1px 2px brown;*/
     transition: all .5s ease-in-out;
@@ -89,7 +98,7 @@ body{
     position: absolute;
     width: 25px;
     height: 3px;
-    background: white;
+    background: rgb(0, 0, 0);
     border-radius: 2px;
     /*box-shadow: 0 1px 2px brown;*/
     transition: all .5s ease-in-out;
@@ -103,8 +112,50 @@ body{
     transform: translateY(10px);
   }
 
+  .menu-btn.open .menu-btn__burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+
+  .menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .burger-menu.open {
+    display: block;
+    text-align: left;
+    padding-left:10px;
+  }
 
 
+ ul, li{
+   list-style:none;
+   padding-left: 0px;
+   margin: 10px 0px;
+ }
+
+  .burger-menu-link {
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  .burger-menu-link:hover {
+    border-radius: 5px;
+    background-color: rgba(165, 231, 210, 0.68);
+  }
+
+  menu-list{
+    list-style: none;
+  }
 
   .w-layout-grid{
     display: block;
@@ -116,7 +167,7 @@ body{
 
 
   .content-textbox {
-    background-color: rgb(103, 103, 134);
+    /*background-color: rgb(103, 103, 134);*/
   }
 
   .series-contents {
@@ -139,7 +190,7 @@ body{
 
   @media screen and (max-width: 360px){
     .content-textbox {
-      background-color: rgb(136, 136, 114);
+      /*background-color: rgb(136, 136, 114);*/
     }
   }
 }
