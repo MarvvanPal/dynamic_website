@@ -222,7 +222,7 @@
   .footer-block {
     padding: 20px 40px;
   }
-
+}
   @media screen and (max-width: 360px){
     
 
@@ -231,4 +231,3 @@
       }
 
   }
-}
