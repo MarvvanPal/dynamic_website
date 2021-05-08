@@ -2,7 +2,23 @@
 
 {% block content %}
 <div class="content-textbox w-container">
-    <h1 class="content-headline">About us</h1>
-    <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+    <div class="content-flexbox w-container">
+        <div class="about-contents-headline"><h1>About us</h1></div>
+    </div>
+    <div class="content-flexbox w-container"> 
+        <div class="about-contents-img"><img src="{{ url_for('static', filename='images/avatar_silvia.png') }}"></img><p>Sílvia Pinto Bachmann</p></div>
+        <div class="about-contents-img"><img src="{{ url_for('static', filename='images/avatar_philipp.png') }}"></img><p>Philipp Vítor</p></div>
+        <div class="about-contents-img"><img src="{{ url_for('static', filename='images/avatar_manuela.png') }}"></img><p>Manuela Milheiro</p></div>
+    </div>
+    <div class="content-flexbox w-container">
+        <div class="about-contents-text">
+            <p>
+            We have been enthusiastically teaching for many years in Hamburg: at the VHS Hamburg, at other language schools and in private classes. During that time we have gotten to know many people, as well as their motives for learning Portuguese and their needs along the way.<br><br>
+            We see ourselves as companions on an exciting journey and also as a bridge between people of different backgrounds, cultures and countries.<br><br>
+            Listening and understanding is always an essential skill when learning a language, but even more so in Portuguese because pronunciation is especially challenging.<br><br>
+            From this development and the desire to provide our participants and everyone with something of high quality, Acoustic Portuguese was born.
+            </p>
+        </div>
+    </div>
 </div>
 {% endblock %}  

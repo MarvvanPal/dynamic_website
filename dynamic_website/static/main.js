@@ -24,14 +24,12 @@ menuBtn.addEventListener('click', () => {
         form.message.focus();
         return false;
       }
-
-      if((!re.test(form.name.value)) || (!re.test(form.subject.value)) || (!re.test(form.message.value))){
-        alert("Error: Input contains invalid characters!");
-        form.message.focus();
-        return false;
-      }
   
       // validation was successful
       //alert("Error: Everything is fine!");
       return true;
+    }
+
+    function noWebShop(){
+      alert("Our web shop is still under construction and will be available soon.");
     }
