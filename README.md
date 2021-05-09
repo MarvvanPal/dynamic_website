@@ -11,7 +11,8 @@ ID_19 - Responsive Design
 Project-Title: Português Acústico<br>
 Description: We want to make it easy to learn portogese. For this project we need a new website.<br>
 Project-Goal: Staging a dynamic website online.<br>
-CODE Learning-Platform-Link: https://app.code.berlin/projects/ckmajv6on83290um9ohwp4pz5
+Project on CODE Learning-Platform via<br>
+> https://app.code.berlin/projects/ckmajv6on83290um9ohwp4pz5
 
 ## Infrastructure-Technologies
 Visual Studio Code<br>
