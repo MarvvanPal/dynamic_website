@@ -2,14 +2,18 @@
 
 {% block content %}
 <div class="content-textbox w-container">
-    <h1 class="content-headline">Contact</h1>
-    <p class="content-text">Please leave us a message via our contact form.</p>
+    <div class="content-flexbox w-container">
+        <h1 class="content-headline">Contact</h1>
+    </div>
+    <div class="content-flexbox w-container">
+        <p class="content-text-contact">Please leave us a message via our contact form.</p>
+    </div>
     <div class="content-flexbox w-container">
         <form method="POST" onsubmit="return checkForm(this);">
-        <div><label>Name<input type="text" name="name" minlength="3" maxlength="30" required></label></div>
-        <div><label>E-Mail<input type="email" name="email" minlength="3"  maxlength="30" required></label></div>
-        <div><label>Subject<input type="text" name="subject" minlength="3"  maxlength="30" required></label></div>
-        <div><label>Message<input type="text" name="message" minlength="3"  maxlength="250" required></label></div>
+        <div><label>Name <input type="text" name="name" minlength="3" maxlength="30" required></label></div>
+        <div><label>E-Mail <input type="email" name="email" minlength="3"  maxlength="30" required></label></div>
+        <div><label>Subject <input type="text" name="subject" minlength="3"  maxlength="30" required></label></div>
+        <div><label>Message <input type="text" name="message" minlength="3"  maxlength="250" required></label></div>
         <div><label>Terms and conditions <input type="checkbox" name="tac"></label></div>
         <div><input type="submit" value="Send Message"></div>
         </form>

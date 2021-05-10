@@ -2,18 +2,17 @@
 
 {% block content %}
 <div class="content-textbox w-container">
-
     <h1 class="content-headline">Contact</h1>
     <p class="content-text">Thank you for leaving us a message.</p>
-</div>
-<div class="content-textbox w-container">
-    <p>Your message was successfully sent.</p>
-    <p>Your message:</p>
-    <h3>Name: {{name}}</h3>
-    <h3>E-Mail: {{email}}</h3>
-    <h3>Subject: {{subject}}</h3>
-    <h3>Message: {{message}}</h3>
-    <h3>Terms and conditions accepted: {{tac}}</h3>
-
+    <div class="content-flexbox w-container">
+        <div>
+            <div><h3>Your message was successfully sent.</h3></div>
+            <div>Name: {{name}}</div>
+            <div>E-Mail: {{email}}</div>
+            <div>Subject: {{subject}}</div>
+            <div>Message: {{message}}</div>
+            <div>Terms and conditions accepted: {{tac}}</div>
+        </div>
+    </div>
 </div>
 {% endblock %}  

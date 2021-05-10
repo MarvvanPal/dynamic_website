@@ -26,13 +26,17 @@
   padding-left: 40px;
 }
 
+.content-text-contact{
+  text-align: center;
+}
+
   
 .content-flexbox {
   display:flex;
   flex-wrap: wrap;
   border-radius: 0px;
   box-shadow: 0px 0px 0px 0 #000;
-  padding: 0px 40px;
+  padding: 10px 40px;
   justify-content: center;
 }
 
@@ -71,6 +75,17 @@
 .about-contents-text{
   width:100%;
   padding: 15px 120px;
+}
+
+.content-links{
+  text-decoration: underline;
+  cursor: pointer; 
+  display: inline;
+  margin-bottom: 0px;
+}
+
+.content-links:hover{
+  text-decoration: none;
 }
 
 .redirect_text {
